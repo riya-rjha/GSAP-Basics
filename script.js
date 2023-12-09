@@ -81,3 +81,10 @@ button.addEventListener('click', ()=> {
     timeline.timeScale(3);
     timeline.reverse();
 })
+
+/**
+ * Delay functions in timeline as : Absolute delay & Relative delay
+ * For absolute delay : {}, 1 -> wrt parent element
+ * For relative delay : {}, '<.5' -> wrt absolute element
+ */
+
